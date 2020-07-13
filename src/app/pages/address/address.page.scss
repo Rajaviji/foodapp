@@ -1,0 +1,37 @@
+ion-slides{
+    img{
+        height:411px;
+        width: 411px;
+    }
+    ion-card{
+        box-shadow: none;
+    }
+    ion-card-content{
+        h3{
+        color:black;
+        font-size: 36px;
+        font-weight: bold;
+        }
+    }
+}
+ion-content{
+    p{
+        text-align: center;
+        color:rgb(177, 185, 185);
+    }
+    ion-button{
+        padding-inline-start: 60px;
+        padding-inline-end: 60px;
+        padding: 0px 15px 0px 15px;
+        border-color: orange;
+    }      
+}
+ion-header{
+    ion-toolbar{
+       ion-title{
+            position: inherit;
+           font-size: 25px;
+           font-weight: bold;
+       }
+    }
+}

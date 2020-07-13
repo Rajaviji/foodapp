@@ -1,0 +1,42 @@
+<ion-header translucent>
+  <ion-toolbar color="danger">
+   <ion-buttons slot="start">
+     <ion-back-button></ion-back-button>
+   </ion-buttons>
+    <ion-title>Orders</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="orders-empty">
+    <img src="../../../assets/images/cart.png">
+  <h2 id="food">Food is not just eating energy, it's an experience</h2>
+  <p>Your orders is empty</p>
+  <p>Add something from the menu</p>
+  <ion-button  color="danger">BROWSE RESTAURANTS</ion-button>
+  </div>
+
+  <div class="orders">
+    <ion-row>
+      <ion-col>
+        <img src="../../../assets/images/dosa.jpg" style="float: left;">
+        Hotel name - AreaName
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        dishname with properties
+      </ion-col>
+      <ion-col>
+        <ion-icon name="remove-circle" (click)="decrement()"></ion-icon>
+        {{currentNumber}}
+          <ion-icon name="add-circle" (click)="increment()">
+          </ion-icon>
+      </ion-col>
+      <ion-col>
+        <h5 style="float: left;">&#x20B9;</h5>
+        <h5>450</h5>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

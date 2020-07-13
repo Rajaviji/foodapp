@@ -1,0 +1,139 @@
+<ion-menu side="start" content-id="main-content">
+  <ion-toolbar translucent color="danger">
+    <ion-item color="danger">
+      <ion-avatar slot="start">
+        <img src="../../assets/images/avatar.jpg">
+      </ion-avatar>
+      <ion-label>Rajarajan<br>
+        vprajan02@gmail.com</ion-label>
+    </ion-item>
+  </ion-toolbar>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="home" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/menu'">Menu</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="search-outline" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/search'">Search</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="briefcase-outline" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/orders'">Orders</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="location-outline" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/address'">Manage Address</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="cog" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/account'">Account Settings</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+      <ion-button expand="full" fill="clear-outline" [routerLink]="'/help'">Help</ion-button>
+    </ion-item>
+    <ion-header>
+      <ion-title>Communicate</ion-title>
+        <ion-item>
+          <ion-icon name="star-half-outline" slot="start"></ion-icon>
+          <ion-button expand="full" fill="clear-outline" [routerLink]="'/menu'">Rate us</ion-button>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="share-social-outline" slot="start"></ion-icon>
+          <ion-button expand="full" fill="clear-outline">Share</ion-button>
+        </ion-item>
+      <ion-title>Other</ion-title>
+        <ion-item>
+          <ion-icon name="person-sharp" slot="start"></ion-icon>
+          <ion-button expand="full" fill="clear-outline" [routerLink]="'/menu'">About us</ion-button>
+        </ion-item> 
+    </ion-header>
+  </ion-list>
+</ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Cholan eats</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-text color="black">
+    <p>We deliver your favourite delicious foods at your door step!</p>
+    <h3 style=" padding: 0px 15px 0px 15px;">Quick and place your orders!!</h3>
+  </ion-text>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-card-content>
+          <ion-row>
+            <ion-col>
+              <h1 style="color: black;">Restaurant</h1>
+              <h4 style="color: black;">Order online</h4>
+            </ion-col>
+            <ion-col>
+              <img src="../../assets/images/food.png" style="float: right;max-width: 75%;transform: scale3d(2.0,2.0,2.0);">
+            </ion-col>
+          </ion-row>
+          <p style="color: black;"><span><ion-button fill="clear">View All<ion-icon name="arrow-forward-outline"></ion-icon></ion-button></span></p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-list>
+    <ion-list-header>
+      Top picks for you
+    </ion-list-header>
+  </ion-list>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/images/food.png">
+    </ion-avatar>
+    <ion-label>
+      <h2>Krishna bhavan</h2>
+      <h3>Rating : 4.3</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/images/dosa.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>A2B Hotel</h2>
+      <h3>Rating: 5.0</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/images/Breakfast recipes.JPG">
+    </ion-avatar>
+    <ion-label>
+      <h2>Murugan idly shop</h2>
+      <h3>Rating : 4.3</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/images/chineese .jpeg">
+    </ion-avatar>
+    <ion-label>
+      <h2>A1 Fast food</h2>
+      <h3>Rating : 4.3</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/images/noodles.jpeg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Copper Chimney</h2>
+      <h3>Rating : 4.3</h3>
+    </ion-label>
+  </ion-item>
+</ion-content>
+</div>

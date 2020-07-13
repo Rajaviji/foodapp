@@ -1,0 +1,7 @@
+{
+  "name": "cholan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
